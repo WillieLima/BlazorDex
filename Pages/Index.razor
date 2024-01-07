@@ -1,0 +1,22 @@
+﻿@page "/"
+@using Models
+@using Util
+@inject PokeClient client
+
+<h1>@pokemon.name</h1>
+<p>@pokemon.id</p>
+<ul>
+    @foreach (var type in pokemon.types)
+    {
+        <li>@type.type.name</li> 
+    }
+</ul>
+
+@code {
+    Pokemon pokemon = new Pokemon();
+
+    protected override async Task OnInitializedAsync()
+    {
+        pokemon = await client.GetPokemon("25");
+    }    
+}
