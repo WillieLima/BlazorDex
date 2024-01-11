@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E/8ZcJDbrcNYJiDiMqR/O58WjkkkZtPde3TE7V0o2Fg=",
+  "Hash": "Ac4wLWPJZh9SOHLr+FrkvUUXnIyAy7Jl70bQTYK1Ozs=",
   "Source": "BlazorDex",
   "BasePath": "/",
   "Mode": "Root",
@@ -6866,6 +6866,40 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/home/wonka/Documentos/CSharp/BlazorDex/bin/Debug/net7.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
+      "Identity": "/home/wonka/Documentos/CSharp/BlazorDex/obj/Debug/net7.0/scopedcss/bundle/BlazorDex.styles.css",
+      "SourceId": "BlazorDex",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/wonka/Documentos/CSharp/BlazorDex/obj/Debug/net7.0/scopedcss/bundle/",
+      "BasePath": "/",
+      "RelativePath": "BlazorDex.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/wonka/Documentos/CSharp/BlazorDex/obj/Debug/net7.0/scopedcss/bundle/BlazorDex.styles.css"
+    },
+    {
+      "Identity": "/home/wonka/Documentos/CSharp/BlazorDex/obj/Debug/net7.0/scopedcss/projectbundle/BlazorDex.bundle.scp.css",
+      "SourceId": "BlazorDex",
+      "SourceType": "Computed",
+      "ContentRoot": "/home/wonka/Documentos/CSharp/BlazorDex/obj/Debug/net7.0/scopedcss/projectbundle/",
+      "BasePath": "/",
+      "RelativePath": "BlazorDex.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/home/wonka/Documentos/CSharp/BlazorDex/obj/Debug/net7.0/scopedcss/projectbundle/BlazorDex.bundle.scp.css"
     },
     {
       "Identity": "/home/wonka/Documentos/CSharp/BlazorDex/wwwroot/css/app.css",

@@ -824,3 +824,5 @@
 /home/wonka/Documentos/CSharp/BlazorDex/obj/Debug/net7.0/BlazorDex.pdb
 /home/wonka/Documentos/CSharp/BlazorDex/obj/Debug/net7.0/ref/BlazorDex.dll
 /home/wonka/Documentos/CSharp/BlazorDex/bin/Debug/net7.0/libman.json
+/home/wonka/Documentos/CSharp/BlazorDex/obj/Debug/net7.0/scopedcss/Pages/Index.razor.rz.scp.css
+/home/wonka/Documentos/CSharp/BlazorDex/obj/Debug/net7.0/scopedcss/projectbundle/BlazorDex.bundle.scp.css
