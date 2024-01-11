@@ -7,13 +7,13 @@
     <div class="pokemon-row">
         @foreach (var pokemon in pokemonList)
         {
-            <div class="pokemon-card">
-                <img src="@pokemon.sprites.front_default" alt="Pokemon Sprite">
+            <div class="pokemon-card" style="background-color: @PokeColor.GetTypeColor(@pokemon.types[0].type.name) ;">
+                <img src="@pokemon.sprites.other.dream_world.front_default" alt="Pokemon Sprite">
                 <h4 class="pokemon-name">@pokemon.name</h4>
                 <div class="type-row">
                     @foreach(var type in pokemon.types)
                     {
-                        <span>
+                        <span class="type-item" style="background-color: @PokeColor.GetTypeColor(type.type.name);">
                             @type.type.name
                         </span>
                     }
@@ -30,7 +30,7 @@
     protected override async Task OnInitializedAsync()
     {
 
-        for(int i = 1; i < 20; i++)
+        for(int i = 1; i < 152; i++)
         {
             pokemonList.Add(await client.GetPokemon(i.ToString()));
             StateHasChanged();

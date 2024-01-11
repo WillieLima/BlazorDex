@@ -1,4 +1,8 @@
 is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net7.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -9,25 +13,27 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = BlazorDex
 build_property.RootNamespace = BlazorDex
-build_property.ProjectDir = /home/wonka/Documentos/CSharp/BlazorDex/
+build_property.ProjectDir = C:\Users\p052396\Documents\csharp\BlazorDex\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/wonka/Documentos/CSharp/BlazorDex
+build_property.MSBuildProjectDirectory = C:\Users\p052396\Documents\csharp\BlazorDex
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/wonka/Documentos/CSharp/BlazorDex/App.razor]
+[C:/Users/p052396/Documents/csharp/BlazorDex/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/wonka/Documentos/CSharp/BlazorDex/MainLayout.razor]
+[C:/Users/p052396/Documents/csharp/BlazorDex/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/wonka/Documentos/CSharp/BlazorDex/_Imports.razor]
+[C:/Users/p052396/Documents/csharp/BlazorDex/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/wonka/Documentos/CSharp/BlazorDex/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-shk9e4kbwt
+[C:/Users/p052396/Documents/csharp/BlazorDex/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-khxivcj1du
