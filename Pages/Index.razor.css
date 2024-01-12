@@ -51,3 +51,8 @@ img{
     text-decoration: none;
     color: #000;
 }
+
+.app-title{
+    width: 25rem;
+    margin: 0 auto 1.25rem auto;
+}

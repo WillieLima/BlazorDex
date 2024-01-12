@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
+      "Id": "C:\\Users\\p052396\\Documents\\csharp\\BlazorDex\\wwwroot\\img\\golden-badge.png",
+      "PackagePath": "staticwebassets\\img\\golden-badge.png"
+    },
+    {
+      "Id": "C:\\Users\\p052396\\Documents\\csharp\\BlazorDex\\wwwroot\\img\\pokemon-logo.png",
+      "PackagePath": "staticwebassets\\img\\pokemon-logo.png"
+    },
+    {
       "Id": "C:\\Users\\p052396\\Documents\\csharp\\BlazorDex\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

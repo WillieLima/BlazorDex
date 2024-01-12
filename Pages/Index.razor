@@ -4,6 +4,7 @@
 @inject PokeClient client
 
 <div class="container">
+    <img src="/img/pokemon-logo.png" alt="app title" class="app-title">
     <div class="pokemon-row">
         @foreach (var pokemon in pokemonList)
         {
@@ -24,7 +25,6 @@
 </div>
 
 @code {
-    Pokemon pokemon = new Pokemon();
     List<Pokemon> pokemonList = new List<Pokemon>();
 
     protected override async Task OnInitializedAsync()

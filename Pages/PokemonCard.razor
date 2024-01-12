@@ -1,0 +1,60 @@
+@page "/pokemon"
+@using Util
+@using Models
+@inject PokeClient client
+
+<div class="container">
+    <div class="card">
+        <div class="card-top">
+            <img src="@pokemon.sprites.other.dream_world.front_default" alt="pokemon sprite">
+        </div>
+        <div class="inner-container">
+            <div class="stats-head">
+                <div class="icon-container">
+                    <img src="" alt="">
+                    <h1 class="pokemon-name card-title">@pokemon.name</h1>
+                </div>
+                <div class="pokemon-info">
+                    <div>
+                        @foreach(var type in pokemon.types)
+                        {
+                            <span class="type-badge" style="background-color: @PokeColor.GetTypeColor(@type.type.name);">@type.type.name</span>
+                        }
+                    </div>
+                    <h5>Height: @(pokemon.height / 10.0)m</h5>
+                    <h5>Weight: @(pokemon.weight / 10.0)kg</h5>
+                </div>
+            </div>
+        </div>
+        <div class="stats-head">
+            <div class="icon-container">
+                <img src="/img/golden-badge.png" alt="golden badge">
+                <h2>Stats</h2>
+            </div>
+            @foreach(var stat in pokemon.stats)
+            {
+                <div>
+                    <h5 class="stat">@stat.stat.name: @stat.base_stat</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped" 
+                        role="progressbar" 
+                        style="width: @stat.base_stat%; background-color: @PokeColor.GetStatColor(@stat.stat.name) ;"
+                        aria-valuenow="100" aria-valuemin="0" aria-valuemax="200">
+
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code{
+    Pokemon pokemon = new Pokemon();
+
+    protected async override Task OnInitializedAsync(){
+
+        pokemon = await client.GetPokemon("6");
+
+    }
+}
