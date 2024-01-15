@@ -5,9 +5,12 @@
 
 <div class="container">
     <div class="card">
-        <div class="card-top">
-            <img src="@pokemon.sprites.other.dream_world.front_default" alt="pokemon sprite">
-        </div>
+        @if(@pokemon.types.Count > 0)
+        {
+            <div class="card-top" style="background-color: @PokeColor.GetTypeColor(@pokemon.types[0].type.name) ;">
+                <img src="@pokemon.sprites.other.dream_world.front_default" alt="pokemon sprite" class="card-img-top">
+            </div>
+        }
         <div class="inner-container">
             <div class="stats-head">
                 <div class="icon-container">

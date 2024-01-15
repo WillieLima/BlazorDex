@@ -1,0 +1,57 @@
+.pokemon-name[b-1b2urjymdp]{
+    text-transform: capitalize;
+}
+
+img[b-1b2urjymdp]{
+    width: 200px;
+}
+
+.badge[b-1b2urjymdp]{
+    text-transform: capitalize;
+}
+
+.container[b-1b2urjymdp]{
+    margin: 30px auto;
+    width: 28%;
+}
+
+.inner-container[b-1b2urjymdp]{
+    margin: 0 auto;
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.card-top[b-1b2urjymdp]{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.type-badge[b-1b2urjymdp]{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 3px;
+}
+
+.stat[b-1b2urjymdp]{
+    text-transform: capitalize;
+}
+
+.stat-bar[b-1b2urjymdp]{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.poke-icon[b-1b2urjymdp]{
+    width
+}

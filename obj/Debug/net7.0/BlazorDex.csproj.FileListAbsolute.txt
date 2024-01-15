@@ -1654,3 +1654,4 @@ C:\Users\p052396\Documents\csharp\BlazorDex\obj\Debug\net7.0\BlazorDex.dll
 C:\Users\p052396\Documents\csharp\BlazorDex\obj\Debug\net7.0\refint\BlazorDex.dll
 C:\Users\p052396\Documents\csharp\BlazorDex\obj\Debug\net7.0\BlazorDex.pdb
 C:\Users\p052396\Documents\csharp\BlazorDex\obj\Debug\net7.0\ref\BlazorDex.dll
+C:\Users\p052396\Documents\csharp\BlazorDex\obj\Debug\net7.0\scopedcss\Pages\PokemonCard.razor.rz.scp.css
