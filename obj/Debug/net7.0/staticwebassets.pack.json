@@ -21,8 +21,24 @@
       "PackagePath": "staticwebassets\\img\\golden-badge.png"
     },
     {
+      "Id": "C:\\Users\\p052396\\Documents\\csharp\\BlazorDex\\wwwroot\\img\\greatball.png",
+      "PackagePath": "staticwebassets\\img\\greatball.png"
+    },
+    {
+      "Id": "C:\\Users\\p052396\\Documents\\csharp\\BlazorDex\\wwwroot\\img\\masterball.png",
+      "PackagePath": "staticwebassets\\img\\masterball.png"
+    },
+    {
+      "Id": "C:\\Users\\p052396\\Documents\\csharp\\BlazorDex\\wwwroot\\img\\pokeball.png",
+      "PackagePath": "staticwebassets\\img\\pokeball.png"
+    },
+    {
       "Id": "C:\\Users\\p052396\\Documents\\csharp\\BlazorDex\\wwwroot\\img\\pokemon-logo.png",
       "PackagePath": "staticwebassets\\img\\pokemon-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\p052396\\Documents\\csharp\\BlazorDex\\wwwroot\\img\\ultraball.png",
+      "PackagePath": "staticwebassets\\img\\ultraball.png"
     },
     {
       "Id": "C:\\Users\\p052396\\Documents\\csharp\\BlazorDex\\wwwroot\\index.html",

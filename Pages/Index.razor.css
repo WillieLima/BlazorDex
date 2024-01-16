@@ -23,6 +23,7 @@
     padding: 1.563rem;
     align-items: center;
     text-align: center;
+    text-decoration: none;
     border-radius: 0.625rem;
     box-shadow: 0.313rem 0.313rem 0.313rem 0.313rem rgba(0, 0, 0, 0.15);
 }
@@ -55,4 +56,8 @@ img{
 .app-title{
     width: 25rem;
     margin: 0 auto 1.25rem auto;
+}
+
+.a-card{
+    text-decoration: none;
 }

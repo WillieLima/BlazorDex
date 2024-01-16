@@ -24,6 +24,7 @@
     padding: 1.563rem;
     align-items: center;
     text-align: center;
+    text-decoration: none;
     border-radius: 0.625rem;
     box-shadow: 0.313rem 0.313rem 0.313rem 0.313rem rgba(0, 0, 0, 0.15);
 }
@@ -56,4 +57,109 @@ img[b-khxivcj1du]{
 .app-title[b-khxivcj1du]{
     width: 25rem;
     margin: 0 auto 1.25rem auto;
+}
+
+.a-card[b-khxivcj1du]{
+    text-decoration: none;
+}
+/* /Pages/PokemonCard.razor.rz.scp.css */
+.pokemon-name[b-1b2urjymdp]{
+    text-transform: capitalize;
+}
+
+img[b-1b2urjymdp]{
+    width: 200px;
+}
+
+.badge[b-1b2urjymdp]{
+    text-transform: capitalize;
+}
+
+.container[b-1b2urjymdp]{
+    margin: 30px auto;
+    width: 28%;
+}
+
+.inner-container[b-1b2urjymdp]{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.card-top[b-1b2urjymdp]{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.card[b-1b2urjymdp]{
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.pokemon-info[b-1b2urjymdp]{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.type-badge[b-1b2urjymdp]{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 3px;
+}
+
+.stat[b-1b2urjymdp]{
+    text-transform: capitalize;
+}
+
+.stat-bar[b-1b2urjymdp]{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.stats-head[b-1b2urjymdp]{
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+
+.poke-icon[b-1b2urjymdp]{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.icon-container[b-1b2urjymdp]{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge-img[b-1b2urjymdp]{
+    width: 8%;
+    margin-right:10px;
+}
+.stat-body[b-1b2urjymdp]{
+    margin: 10px;
+}
+
+a[b-1b2urjymdp]{
+    height: 40px;
+    width: 95px;
+    margin: 20px;
 }

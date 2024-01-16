@@ -17,13 +17,28 @@ img{
 
 .inner-container{
     margin: 0 auto;
-    width: 100px;
+    width: 100%;
     text-align: center;
     padding: 20px;
     padding-top: 0px;
 }
 
 .card-top{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.card{
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+}
+
+.pokemon-info{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -52,6 +67,12 @@ img{
     margin-bottom: 5px;
 }
 
+.stats-head{
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 0px;
+}
+
 .poke-icon{
     width: 30px;
     height: 30px;
@@ -62,4 +83,18 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.badge-img{
+    width: 8%;
+    margin-right:10px;
+}
+.stat-body{
+    margin: 10px;
+}
+
+a{
+    height: 40px;
+    width: 95px;
+    margin: 20px;
 }
