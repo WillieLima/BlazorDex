@@ -25,7 +25,7 @@ O projeto é atualizado automaticamente, acrescentando card a card. Ao clicar em
 
 ## Demonstração
 
-![Veja o BlazorDex em ação]()
+![Veja o BlazorDex em ação](https://github.com/WillieLima/BlazorDex/blob/main/wwwroot/img/BlazorDex-gif.gif)
 
 ---
 
