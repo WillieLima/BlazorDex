@@ -39,6 +39,3 @@ O projeto é atualizado automaticamente, acrescentando card a card. Ao clicar em
 
 Para mais informações ou colaborações, sinta-se à vontade para entrar em contato.
 
----
-
-Espero que isso esteja mais claro agora! Se precisar de mais ajustes ou informações, estou à disposição.
